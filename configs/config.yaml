@@ -1,0 +1,11 @@
+﻿General:
+  LogSavePath: storage/logs
+  LogFileName: log
+  LogFileExt: .log
+  LogMaxSize: 60
+  LogMaxAge: 3
+  # 定时任务规则：秒/分/时/日/月/星期（cron）
+  # 每天0-23时每隔10秒执行一次任务
+  CronSpec: "*/10 * 0-23 * * ?"
+  # 监控配置文件路径
+  MonitorCfg: ./configs/process.txt
